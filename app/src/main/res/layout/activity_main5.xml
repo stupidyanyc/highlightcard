@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="290dp"
+        android:text="Level 4"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="60dp"
+        android:text="Time: 5"
+        android:textSize="30sp" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:rowCount="5"
+        android:alignmentMode="alignMargins"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        android:columnOrderPreserved="false"
+        android:rowOrderPreserved="false"
+        android:useDefaultMargins="true">
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/view7"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/view8"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/view9"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/view10"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/view11"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/view12"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/view13"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/view14"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/view15"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/view16"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/view17"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/view18"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/view19"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/view20"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/view21"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/view22"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/view23"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/view24"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/view25"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/white" />
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/Points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="80dp"
+        android:text="Points: 0"
+        android:textSize="30sp"/>
+
+
+
+</RelativeLayout>
